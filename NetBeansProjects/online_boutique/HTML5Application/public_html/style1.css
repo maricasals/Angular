@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 mars 2016, 15:46:14
+    Author     : admin
+*/
+/*Style pour une valise*/ 
+body{
+    background-color: black;
+    color: beige;
+
+    /*Style font*/
+    font-family: monospace;
+    /*Taille font*/
+    font-size: medium;
+}
+
+.titre{
+    font-size: larger;
+    font-weight: bold;
+    color: gold;
+    
+}
+
+.menu{
+    border-color: chartreuse;
+    border-style: dotted;
+    border-width: 3px 0px 3px 0px;
+
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+    
+    background-image: url('Images/TulipChamps.jpg')
+}
+
+.contenu{
+    font-weight: bold;
+    color: blanchedalmond;
+    
+    border-color: yellow;
+    border-style: outset;
+    border-width: 3px 0px 3px 0px;
+
+    /*Alignement text*/
+    text-align: center
+
+    
+}
+
+.pied{
+    font-weight: lighter;
+    font-size: small;
+    color: crimson;
+    
+    border-color: crimson;
+    border-style: groove;
+    border-width: 1px 0px 1px 0px;
+
+    
+
+}
+
+.menu, .contenu, .titre, .pied{
+    /*Alignement text*/
+    text-align: center
+}
+
+input, textarea, select{
+    
+    background-color: black;
+    color:white;
+    width: 200px;
+}
+
+a:link a:visited a:hover a:focus a:active{
+    color: ivory;
+}
+
+/*.table_liste_film tr []{
+    
+}*/

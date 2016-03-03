@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Rensegner Film</title>
+    </head>
+    <body>
+        <br/>
+        <div>Nouveau Film :</div>
+        <br/>
+        <form>
+
+            <table>
+                <thead>
+                    <th>Titre</th>
+                    <th>Valeur</th>
+                </thead>
+                <tr>
+                    <td>
+                        <label>Titre du film</label>
+                    </td>
+                    <td>
+                        <input type="text" name="titre"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Synopsis</label>
+                    </td>
+
+                    <td>
+                        <textarea name="synopsis"></textarea>   
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Annee</label>
+                    </td>
+                    <td>
+                        <input type="number" value="2016" min="1990" max="2016"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Genre</label>
+                    </td> 
+                    <td>
+                        <select name="genre">
+                            <option value="1">Action</option>
+                            <option value="2">Fantastique</option>
+                            <option value="3">Romances</option>
+                            <option value="4">Thriller</option>
+                        </select> 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Pays</label>
+                    </td> 
+                    <td>
+                        <select name="pays">
+                            <option value="1">EEUU</option>
+                            <option value="2">France</option>
+                            <option value="3">Espagne</option>
+                            <option value="4">Italie</option>
+                        </select> 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Realisateur(s)</label>
+                    </td>
+                    
+                    <td>
+                        <select multiple="true" name="realisateur">
+                            <option value="1">Quintin TARANTINO</option>
+                            <option value="2">Pedro ALMODOVAR</option>
+                            <option value="3">George LUCAS</option>
+                            <option value="4">CHOEN</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Publie</label>
+                    </td>
+                    
+                    <td>
+                        <input type="checkbox" name="publié"/>
+                    </td>
+                </tr>
+                
+                <tr>
+<!--                    <td>
+                    </td>-->
+                    <!--colspan pourque la celulle ocupe le numèro de colonnes indiqué-->
+                    <!--Donc pas besoin de fer un <td></td> vide-->
+                    <td colspan="2">
+                        <input type="submit" name="Envoyer"/>
+                    </td>
+                </tr>
+
+
+                <table/>
+        </form>
+
+    </body>
+</html>
