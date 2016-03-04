@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 mars 2016, 15:46:14
+    Author     : admin
+*/
+/*Style pour une valise*/ 
+body{
+/*    background-image: url(Images/imageFond.jpg);
+    background-repeat: no-repeat;*/
+    background-color: black;
+    color: floralwhite;
+    background-size: 1800px;
+
+    /*Style font*/
+    font-family: monospace;
+    /*Taille font*/
+    font-size: medium;
+}
+
+.titre{
+    font-size: larger;
+    font-weight: bolder;
+    color: orange;
+    border-color: orange;
+    border-style: double;
+    border-width: 3px 3px 3px 3px;
+    
+}
+
+.menu{
+    
+/*    background-image: url(Images/imageFond.jpg);
+    background-repeat: no-repeat;*/
+    background-color: black;
+    border-color: purple;
+    border-style: dotted;
+    border-width: 3px 0px 3px 0px;
+
+    font-weight: bold;
+    font-size: large;
+    color: purple;
+    
+    
+}
+
+.contenu{
+    font-weight: normal;
+    color: blanchedalmond;
+    
+    
+}
+
+.pied{
+    font-weight: lighter;
+    font-size: small;
+    color: crimson;
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    
+
+}
+
+.menu, .contenu, .titre, .pied, .head, .head-stile{
+    /*Alignement text*/
+    text-align: center
+}
+
+input, textarea, select{
+    
+    background-color: black;
+    color:white;
+    width: 200px;
+}
+
+a:link a:visited a:hover a:focus a:active{
+    color: ivory;
+    align-items: center;
+}
+
+.ul{
+    
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em
+    
+}
+
+.head{
+    background-color: blue;
+}
+
+.head-stile{
+    background-color: firebrick;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+/*.table_liste_film tr []{
+    
+}*/
